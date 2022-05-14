@@ -1,0 +1,76 @@
+body{
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: rgb(116, 0, 116);
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgb(93, 0, 144);
+    height: 100px;
+    text-align: center;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 30px;
+}
+nav a {
+    text-decoration: none;
+}
+nav :hover{
+    color: rgb(255, 0, 255)
+}
+
+h1{
+    font-size: 35px;
+}
+p {
+    font-size: 18px;
+    width: 600px;
+}
+
+ul li {
+    display: inline;
+    color: black;
+    position: relative;
+}
+
+footer{
+    border: 2px solid black;
+    height: 80px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    background-color: rgb(93, 0, 144);
+    padding-top: 15px;
+
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+p :hover{
+    color: rgb(204, 0, 254);
+}
+
+a :active{
+    color: purple;
+}
+
+.error{
+    text-align: center;
+    font-size: 50px;
+}
+.error_img{
+    width: 400px;
+    height: 400px;
+    margin-left: 37.5%;
+}
